@@ -1,0 +1,29 @@
+{
+  "type":"module",
+  "name": "dictionary-discord-bot-node-server",
+  "version": "1.0.0",
+  "description": "Node server for discord Bot . Feature Dictionary and intraction for CURD operation",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon --watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anime1nation/Dictionary-Discord-BOT-Node-Server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/anime1nation/Dictionary-Discord-BOT-Node-Server/issues"
+  },
+  "homepage": "https://github.com/anime1nation/Dictionary-Discord-BOT-Node-Server#readme"
+}
